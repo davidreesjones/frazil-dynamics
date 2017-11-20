@@ -52,8 +52,8 @@ figure_initial_example % Figure 7
 figure_CSD_steadystates % Figure 8
 
 % Frazil explosion regime diagram
-figure_regime_diagram % Figure 3
-% N.B. Regime diagram Figure 3 produced from stored result files regime_data_X.mat
+figure_regime_diagram % Figure 4
+% N.B. Regime diagram Figure 4 produced from stored result files regime_data_X.mat
 % These files can be recomputed by running calculate_regime_diagram.m
 
 % ISW plume frazil dynamics

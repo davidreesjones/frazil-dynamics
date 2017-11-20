@@ -51,6 +51,6 @@ CODE SUMMARY:
 
 INSTRUCTIONS:
 1. Run make_all_figures.m to produce the figures from the Cryosphere paper.
-2. Note that the run-time may extend to several minutes (especially figure 8).
-3. Figure 3 is plotted from saved data. Run calculate_regime_diagram.m to recalculate the data
+2. Note that the run-time may extend to several minutes (especially figure 9).
+3. Figure 4 is plotted from saved data. Run calculate_regime_diagram.m to recalculate the data
     (warning: likely to take an hour or more).
