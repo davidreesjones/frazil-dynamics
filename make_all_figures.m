@@ -26,6 +26,18 @@
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
 
+% NOTES
+% 1. Figure numbers are consistent with revised Cryosphere manuscript
+% 2. Figure 1 (a sketch added to manuscript in revision) is not plotted
+
+% REFERENCE:
+% Rees Jones, D. W. and Wells, A. J.:
+% Frazil-ice growth rate and dynamics in mixed layers and sub-ice-shelf plumes,
+% The Cryosphere Discuss.,
+% https://doi.org/10.5194/tc-2017-155,
+% Accepted for publication in The Cryosphere, 2017.
+% (Please cite final revised manuscript when available.)
+
 close all
 clear
 
