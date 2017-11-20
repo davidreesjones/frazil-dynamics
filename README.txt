@@ -39,7 +39,7 @@ REFERENCE:
 Rees Jones, D. W. and Wells, A. J.:
 Frazil-ice growth rate and dynamics in mixed layers and sub-ice-shelf plumes,
 The Cryosphere Discuss.,
-https://doi.org/10.5194/tc-2017-155,
+https://doi.org/10.5194/tc-2017-155
 Accepted for publication in The Cryosphere, 2017.
 (Please cite final revised manuscript when available.)
 
