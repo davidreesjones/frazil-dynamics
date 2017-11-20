@@ -35,12 +35,22 @@ NB: This distribution of frazil_dynamics was developed and tested
 on MATLAB 2016b. Running these routines on different versions of
 MATLAB may lead to compatibility issues.
 
+REFERENCE:
+Rees Jones, D. W. and Wells, A. J.:
+Frazil-ice growth rate and dynamics in mixed layers and sub-ice-shelf plumes,
+The Cryosphere Discuss.,
+https://doi.org/10.5194/tc-2017-155,
+Accepted for publication in The Cryosphere, 2017.
+(Please cite final revised manuscript when available.)
+
 CODE SUMMARY:
 1. mixed_layer_frazil_v1_0.m runs a frazil dynamics calculation in a simple mixed layer
 2. isw_plume_frazil_v1_0.m runs a frazil dynamics calculation in an isw plume.
-3. calculate_regime_diagram.m calculates data used in the regime diagram for frazil explosions (warning: likely to take an hour or more)
+3. calculate_regime_diagram.m calculates data used in the regime diagram for frazil explosions
+    (warning: likely to take an hour or more)
 
 INSTRUCTIONS:
 1. Run make_all_figures.m to produce the figures from the Cryosphere paper.
 2. Note that the run-time may extend to several minutes (especially figure 8).
-3. Figure 3 is plotted from saved data. Run calculate_regime_diagram.m to recalculate the data (warning: likely to take an hour or more).
+3. Figure 3 is plotted from saved data. Run calculate_regime_diagram.m to recalculate the data
+    (warning: likely to take an hour or more).
