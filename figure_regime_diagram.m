@@ -27,7 +27,7 @@
 % SOFTWARE.
 
 
-figure(3); clf; 
+figure(4); clf; 
 colormap([0.8 0.8 0.8; [32,101,171]/255])
 subplot(1,3,1); hold on; box on;
 set(gca,'XScale','log','YScale','log')

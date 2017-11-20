@@ -43,7 +43,7 @@ tmax=15000;
 
 
 dr=Vri*log(Vri(end)/Vri(1))/(length(Vri)-1);
-figure(7); clf; hold on;
+figure(8); clf; hold on;
 
 n1c=4e6; 
 

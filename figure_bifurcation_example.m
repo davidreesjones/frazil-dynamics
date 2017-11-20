@@ -44,7 +44,7 @@ Vti=ti_mm*1e-3; Vvi=pi*Vri.^2.*Vti; Nclass=N;
 tmax=1500; 
 
 
-figure(2); clf; 
+figure(3); clf; 
 subplot(2,1,1); hold on; 
 set(gca,'YScale','log','YLim',[1e-8,1e-2],'YTick',logspace(-8,-2,4)); box on;
 ylabel('$C$','interpreter','latex')

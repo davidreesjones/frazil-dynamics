@@ -34,13 +34,13 @@ f3=2*h;
 f4=2*ar*ones(size(h));
 
 
-figure(1); clf; 
+figure(2); clf; 
 subplot(2,1,1); hold on; 
 set(gca,'YScale','log','YLim',[1e-8,1e-2],'YTick',logspace(-8,-2,4)); box on;
 ylabel('$C$','interpreter','latex')
 text(50,4e-8,'(\textit{a})','interpreter','latex')
 
-figure(1); clf; hold on;
+figure(2); clf; hold on;
 plot(h,f1,'-','DisplayName','$f_1$');
 plot(h,f2,'-.','DisplayName','$f_2$');
 plot(h,f3,'--','DisplayName','$f_3$');

@@ -30,14 +30,14 @@ close all
 clear
 
 % Growth law figure
-figure_growth_law % Figure 1
+figure_growth_law % Figure 2
 
 % Mixed layer frazil dynamics
-figure_bifurcation_example % Figure 2
-figure_CSD_evolution % Figure 4
-figure_growth_example % Figure 5
-figure_initial_example % Figure 6
-figure_CSD_steadystates % Figure 7
+figure_bifurcation_example % Figure 3
+figure_CSD_evolution % Figure 5
+figure_growth_example % Figure 6
+figure_initial_example % Figure 7
+figure_CSD_steadystates % Figure 8
 
 % Frazil explosion regime diagram
 figure_regime_diagram % Figure 3
@@ -46,5 +46,5 @@ figure_regime_diagram % Figure 3
 
 % ISW plume frazil dynamics
 plume_sensitivity_experiments % Run calculations
-figure_plume_summary % Figure 8
+figure_plume_summary % Figure 9
 clean_plume_data % Removes large data files calculated by plume model

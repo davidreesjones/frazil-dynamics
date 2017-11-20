@@ -27,7 +27,7 @@
 % SOFTWARE.
 
 dr=Vri*log(Vri(end)/Vri(1))/(length(Vri)-1);
-figure(4); clf; hold on;
+figure(5); clf; hold on;
 set(gca,'XScale','log','XLim',[5e-6,10e-3])
 set(gca,'YScale','log','YLim',[1,1e12],'YTick',logspace(0,12,4))
 h0=plot(Vri,deval(sol,0,1:Nclass)./dr','k','DisplayName','$t=0$s');

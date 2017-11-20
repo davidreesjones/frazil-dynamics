@@ -26,7 +26,7 @@
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
 
-figure(8); clf;
+figure(9); clf;
 
 for I=1:8
     subplot(4,2,I); hold on;

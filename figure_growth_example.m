@@ -41,7 +41,7 @@ tilde_nmax =4e6;
 Vti=ti_mm*1e-3; Vvi=pi*Vri.^2.*Vti; Nclass=N;
 tmax=3000; 
 
-figure(5); clf; 
+figure(6); clf; 
 subplot(2,2,1); hold on; 
 set(gca,'YScale','log','YLim',[1e-8,1e-2],'YTick',logspace(-8,-2,4)); box on;
 ylabel('$C$','interpreter','latex')
