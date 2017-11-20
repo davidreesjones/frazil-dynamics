@@ -35,7 +35,7 @@ end
 
 filename_list=cell(1,6);
 I=0;
-for opt=1:2
+for opt=1:2:3
     for tilde_nmax=[0,500,4e6]
         I=I+1;
         filename_list{I}=strcat('Growth_',num2str(opt),'_tilde_nmax_',num2str(tilde_nmax,'%1.0e'));
@@ -50,20 +50,20 @@ displayname=cell(1,6);
 for I=1:numel(filename_list)
     load(filename_list{I})
     switch opt
-        case 1
-            growth_law='SJ04';
-        case 2
-            growth_law='SO94';
-        case 3 
-            growth_law='RJW15';
-    end
+      case 1
+        growth_law='Slow (SJ04)';
+      case 2
+        growth_law='Fast (SO94)';
+      case 3
+    growth_law='Fast (RJW15)';
+end
     if tilde_nmax==0
         tilde_nmax_str='0';
     else
         tilde_nmax_exp=floor(log10(tilde_nmax));
         tilde_nmax_str=strcat(num2str(tilde_nmax/10^tilde_nmax_exp,0),'$\times 10^{',num2str(tilde_nmax_exp),'}$');
     end
-    displayname{I}=strcat('$f:\,$ ',growth_law,', $\tilde{n}_\mathrm{max}=\,$',tilde_nmax_str);
+    displayname{I}=strcat(growth_law,', $\tilde{n}_\mathrm{max}=\,$',tilde_nmax_str);
     
     subplot(4,2,1); plot(vx/1000,vU,'LineStyle',lin_sty{I},'DisplayName',displayname{I})
     subplot(4,2,3); plot(vx/1000,vD,'LineStyle',lin_sty{I},'DisplayName',displayname{I})
