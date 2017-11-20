@@ -56,7 +56,7 @@ yC(5:4+numel(ri_mm))=yC(1)*C_init; % multiply by DU
 
 %% Run experiments showing sensitivity to growth rate and nucleation
 run_counter=0;
-for opt=1:2
+for opt=1:2:3
     for tilde_nmax=[0,500,4e6]
         run_counter=run_counter+1;
         disp(run_counter)
